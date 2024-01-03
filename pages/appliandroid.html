@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Portfolio de Ruben ALMEIDA ALHADA - BTS SIO">
         <meta name="author" content =" Ruben ALMEIDA ALHADA">
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="../favicon.ico">
+        <link href="../css/realisations.css" rel="stylesheet">
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -30,7 +32,7 @@
                         <!---------------------------------------------------Bouton Accueil ----------------------------------------------->
 
                         <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
@@ -38,7 +40,7 @@
                         <!-------------------------------------------- Bouton "CV" -------------------------------------------------------------------->
 
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
@@ -54,7 +56,7 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Application Android</a>
+                                    <a role="menuitem" href="#">Application Android</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="#">Site web</a>
@@ -127,34 +129,52 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> 
         </nav>
-
         <!------------------------------------------------ Contenu principal ------------------------------------------------>
-        
-        <div class="jumbotron">
-            <h1>Bonjour et bienvenue sur mon portfolio ! </h1> 
-            <div class="row">
-                <div class="col-lg-1">
-                    <img src="images/AmeliaPilou.jpg" class="img-thumbnail" alt="Photo de Amélia Pilou souriant tenant un teléphone dans sa main droite en regardant la caméra"> 
-                </div>
-                <div class="col-lg-7">
-                    <p>Je m'appelle Ruben ALMEIDA ALHADA, j'ai 19 ans et ce site a pour vocation de me présenter en tant que personne, en
-                        tant qu'étudiante et candidate à l'obtention du BTS SIO (Services Informatiques aux Organisations) et en tant
-                        que future professionnelle de finformatique.
-                    </p>
-                    <p><a class="btn btn-primary" href="#" target="_blank"
-                          role="button">En savoir plus »</a>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Programmation sous Android</h1>
+                <p class="lead text-muted">Cette activité m'a permis de développer une
+                    application Android avec différents modes de persistances (locales et
+                    distantes) et m'a appris à gérer les adapters. J'ai également pu connaître
+                    le mode de déploiement d'une application Android.
+                </p>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/ihmcoach.png" alt="IHM Coach">
+                            <div class="card-body">
+                                <p class="card-text">Construction de l'interface graphique</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/MVC.png"
+                                 alt="Structuration MVC">
+                            <div class="card-body">
+                                <p class="card-text">Stucturation de l'application en MVC</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/adapters.png" alt="Adapters">
+                            <div class="card-body">
+                                <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>   
+        </div>
 
         <!------------------------------------------------------------ Pied de page  ------------------------------------------------------------------------------------------------->
-
         <footer>
             <div class="container">
                 <div class="row">
@@ -210,5 +230,3 @@
                 <p class="text-center" id="copyright">© Ruben ALMEIDA ALHADA 2023</p>
             </div>
         </footer>
-    </body>
-</html>
