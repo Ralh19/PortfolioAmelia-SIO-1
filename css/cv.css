@@ -284,3 +284,18 @@ body {
 #competences .container .classement5 {
     background-position: 0 0px;
 }
+
+/******************************************
+* Passions
+******************************************/
+
+#passions .container {
+    font-size: 1.3em;
+    
+}
+
+#passions .container i {
+    margin-right: 5px;
+    color: rgb(226,0,26);
+    font-size: 1.1em;
+}
