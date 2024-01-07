@@ -27,6 +27,8 @@ body {
     width: 160px;
     height: 160px;
     border-radius: 50%;
+    object-fit: cover;
+    
 }
 #cv-intro h1 {
     margin: 0;
