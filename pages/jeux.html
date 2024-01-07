@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="Portfolio de Ruben ALMEIDA ALHADA - BTS SIO">
         <meta name="author" content =" Ruben ALMEIDA ALHADA">
-        <link rel="icon" href="favicon.ico">
+        <link rel="icon" href="../favicon.ico">
+        <link href="../css/realisations.css" rel="stylesheet">
+
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -23,14 +25,14 @@
                         data-target="#navbar" aria-controls="navbar">
                     <span class="sr-only">Navigation raccourcie</span>☰
                 </button>
-                <a class="navbar-brand" href="index.html">Mon portfolio</a>
+                <a class="navbar-brand" href="#">Mon portfolio</a>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
 
                         <!---------------------------------------------------Bouton Accueil ----------------------------------------------->
 
                         <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
+                            <a href="../index.html" class="nav-link">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
@@ -38,7 +40,7 @@
                         <!-------------------------------------------- Bouton "CV" -------------------------------------------------------------------->
 
                         <li class="nav-item">
-                            <a href="pages/cv.html" class="nav-link">
+                            <a href="cv.html" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
@@ -54,10 +56,10 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/appliandroid.html">Application Android</a>
+                                    <a role="menuitem" href="#">Application Android</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="pages/jeux.html">Jeux</a>
+                                    <a role="menuitem" href="jeux.html">Jeux</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="#">Études et analyses</a>
@@ -127,60 +129,79 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> 
         </nav>
-
         <!------------------------------------------------ Contenu principal ------------------------------------------------>
-
-        <div class="jumbotron">
-            <h1>Ruben ALMEIDA ALHADA - Portfolio </h1> 
-            <div class="row">
-                <div class="col-lg-1">
-                    <img src="images/ruben.jpg" class="img-thumbnail" alt="Photo de Ruben ALMEIDA ALHADA souriant"> 
-                </div>
-                <div class="col-lg-7">
-                    <p>Je m'appelle Ruben ALMEIDA ALHADA, j'ai 19 ans et ce site a pour vocation de me présenter en tant que personne, en
-                        tant qu'étudiant et candidat à l'obtention du BTS SIO (Services Informatiques aux Organisations) et en tant
-                        que futur professionnel de l'informatique.
-                    </p>
-                    <p><a class="btn btn-primary" href="#" target="_blank"
-                          role="button">En savoir plus »</a>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Programmation sous Android</h1>
+                <p class="lead text-muted">Cette activité m'a permis de développer une
+                    application Android avec différents modes de persistances (locales et
+                    distantes) et m'a appris à gérer les adapters. J'ai également pu connaître
+                    le mode de déploiement d'une application Android.
+                </p>
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="image a rajouter" alt="IHM Coach">
+                            <div class="card-body">
+                                <p class="card-text">The Return - Jeu textuel</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="image a rajouter"
+                                 alt="Structuration MVC">
+                            <div class="card-body">
+                                <p class="card-text">Merlin's Demon War - Jeu de carte interactif</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="image a rajouter" alt="Adapters">
+                            <div class="card-body">
+                                <p class="card-text">Snake - Jeu Mobile Arcade</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>   
+        </div>
 
         <!------------------------------------------------------------ Pied de page  ------------------------------------------------------------------------------------------------->
-
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <h2>Étudiant au Lycée Bonaparte - Toulon</h2>
-                        <p>J'ai choisi de suivre le BTS SIO au Lycée Bonaparte, situé dans la ville de Toulon, 
-                            dans le but d'élargir mes connaissances dans le domaine de l'informatique, 
-                            notamment dans le développement, qui est le sujet qui m'intéresse le plus.
-                            Cette formation va aussi contribuer a me professionnaliser au maximum 
-                            afin d'être le plus compétent possible lors de mon ascension dans le monde du travail.
-
+                        <h2>Étudiante du CNED</h2>
+                        <p>J'ai choisi de suivre le BTS SIO à distance par le Centre National
+                            d'Enseignement à Distance car je souhaitais pourvoir avancer à mon rythme,
+                            choisir moi-même mon emploi du temps, apprendre à être autonome, pouvoir
+                            utiliser les outils de collaboration à distance et devenir plus responsable en
+                            étant capable de me fixer moi-même des contraintes, des limites et des
+                            objectifs à atteindre !
                         </p>
-                        <p><a class="btn btn-secondary" href="https://bts-sio.lyc-bonaparte.fr/" target="_blank"
+                        <p><a class="btn btn-secondary" href="http://www.cned.fr" target="_blank"
                               role="button">En savoir plus »</a>
                         </p>
                     </div>
                     <div class="col-lg-4">
                         <h2>Le BTS SIO</h2>
-                        <p>L'informatique est un domaine qui m'intéresse grandement depuis mon plus jeune âge, 
-                           inspiré par mon oncle, ingénieur dans ce domaine. J'ai toujours considéré ce milieu comme un hobby 
-                           à part entière sans jamais vraiment vouloir en faire mon métier. Ce n'est que très récemment, lors d'une réorientation 
-                           après l'obtention de mon BAC STMG spécialité Mercatique, que j'ai décidé d'en faire bien plus que mon hobby et de commencer 
-                           à me former sérieusement dans le but d'en faire ma profession. J'ai choisi le BTS "Service Informatique Aux Organisations" en 
-                           grande partie pour son accessibilité, mais aussi pour le côté professionnalisant qui s'éloigne des cours traditionnels dont je 
-                           commençais sérieusement à me lasser. Je suis déterminé à réussir cette formation pour ainsi atteindre mon objectif de devenir un informaticien
-                           aguerri !
+                        <p>Passionnée d'informatique depuis mon plus jeune âge, j'aime apprendre à faire
+                            de nouvelles choses avec mon ordinateur, mon smartphone ou ma tablette. Une
+                            Geek ? Oui assurément ! Mais j'aimerais maintenant passer au niveau au-dessus
+                            et devenir une vraie Nerd, dans le bon sens du terme ! Après mon bac, le BTS
+                            SIO s'est présenté comme une évidence. Avec 60% d'Informatique "pure", 13%
+                            d'Économie, management et droit de l'informatique, 9% d'Anglais, 9% de culture
+                            générale et 9% de Maths, je savais que cette formation allait me mettre le
+                            pied à l'étrier pour poursuivre ensuite dans cette voie et devenir
+                            informaticienne !
                         </p>
                         <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_technicien_supérieur_-_Services_informatiques_aux_organisations" target="_blank" 
                               role="button">En savoir plus »</a>
@@ -188,12 +209,16 @@
                     </div>
                     <div class="col-lg-4">
                         <h2>Option B SLAM</h2>
-                        <p> En fin de premier semestre, on doit choisir notre option. "Solutions 
+                        <p>En fin de premier semestre, on doit choisir notre option. "Solutions
                             Logicielles et Applications Métiers" est l'option qui m'a séduit&nbsp;!
-                            L'une de mes principales motivations à choisir cette option était par rapport 
-                            à mon fort intérêt pour la programmation, dont j'ai fait l'expérience durant 1an de 
-                            formation à distance sur le développement de jeux vidéo, ce qui m'a fait adorer ce domaine. 
-                            Mon choix n'a donc pas été très difficile.
+                            Travailler en équipe à la satisfaction de besoins d'un client, définir des
+                            spécifications, faire des tests, corriger des bugs, faire de la maintenance,
+                            veiller à la sécurité des données à caractère personnel... tout en apprenant
+                            les bases du métier de développeuse : modélisation des données
+                            avec Merise et UML, programmation objet avec Java, C# et PHP, conception
+                            de bases de données sous PostgreSQL et MySQL, réalisation de
+                            composants logiciels avec Symfony, gestion de projet, méthodes agiles...
+                            J'étais sûre que ça serait fait pour moi !
                         </p>
                         <p><a class="btn btn-secondary" href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank" 
                               role="button">En savoir plus »</a>
@@ -205,5 +230,3 @@
                 <p class="text-center" id="copyright">© Ruben ALMEIDA ALHADA 2023</p>
             </div>
         </footer>
-    </body>
-</html>
