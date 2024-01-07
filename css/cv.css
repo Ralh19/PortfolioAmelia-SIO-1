@@ -28,7 +28,7 @@ body {
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    
+
 }
 #cv-intro h1 {
     margin: 0;
@@ -181,7 +181,11 @@ body {
     display:flex;
     margin-bottom: 15px;
 }
-.experience .lieu {
+.experience .none {
+    ont-size: 1.1em;
+    font-weight: bold;
+}
+/*.experience .lieu {
     font-size: 1.1em;
     font-weight: bold;
 }
@@ -197,7 +201,7 @@ body {
 .experience .details {
     font-size: 1.2em;
     line-height: 1.5em;
-}
+}*/
 
 /******************************************
 * Me contacter
@@ -250,7 +254,7 @@ body {
 }
 #langues .langue {
     padding-top: 3px;
-}   
+}
 /******************************************    
 * Compétences
 ******************************************/
@@ -293,7 +297,7 @@ body {
 
 #passions .container {
     font-size: 1.3em;
-    
+
 }
 
 #passions .container i {
