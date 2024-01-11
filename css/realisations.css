@@ -14,6 +14,10 @@
 .jumbotron {
     margin-bottom: 0px;
 }
+.album .card .card-body {
+    text-align: center;
+}
+
 .card .card-img-top {
     width: 100%;
     height: 300px;
