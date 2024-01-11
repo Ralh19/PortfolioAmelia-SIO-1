@@ -14,6 +14,9 @@
 .jumbotron {
     margin-bottom: 0px;
 }
+.card .card-img-top:hover {
+    cursor: pointer;
+}
 .card-title {
     margin: 10px;
     color: rgb(226,0,26);
