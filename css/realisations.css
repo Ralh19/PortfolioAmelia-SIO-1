@@ -14,4 +14,20 @@
 .jumbotron {
     margin-bottom: 0px;
 }
+.card-title {
+    margin: 10px;
+    color: rgb(226,0,26);
+    font-weight: bold;
+     
+}
+.album .card .card-body .card-text img {
+    width: 50px;
+    height: 50px;
+}
 
+.album .card .card-body .card-text img:hover {
+    padding:0px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: rgba(0,0,0,0.2)  
+}
