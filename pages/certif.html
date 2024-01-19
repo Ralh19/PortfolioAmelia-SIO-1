@@ -8,7 +8,6 @@
         <meta name="author" content =" Ruben ALMEIDA ALHADA">
         <link rel="icon" href="../favicon.ico">
         <link href="../css/realisations.css" rel="stylesheet">
-
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -16,6 +15,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <title>Portfolio de Ruben ALMEIDA ALHDADA (BTS SIO )</title>
     </head>
     <body>
@@ -56,19 +56,16 @@
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En autonomie</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="appandroid.html">Application Android</a>
+                                    <a role="menuitem" href="../pages/certif.html">Certifications</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="jeux.html">Jeux</a>
-                                </li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Études et analyses</a>
                                 </li>
                                 <li role="presentation" class="dropdown-divider"></li>
                                 <li role="presentation" class="dropdown-header dropdown-item">
                                     En entreprise</li>
                                 <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="#">Projet de 1ère année</a>
+                                    <a role="menuitem" href="preannee.html">Projet de 1ère année</a>
                                 </li>
                                 <li role="presentation" class="dropdown-item">
                                     <a role="menuitem" href="#">Projet de 2ème année</a>
@@ -132,47 +129,51 @@
             </div> 
         </nav>
         <!------------------------------------------------ Contenu principal ------------------------------------------------>
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Programmation sous Android</h1>
-                <p class="lead text-muted">Cette activité m'a permis de développer une
-                    application Android avec différents modes de persistances (locales et
-                    distantes) et m'a appris à gérer les adapters. J'ai également pu connaître
-                    le mode de déploiement d'une application Android.
-                </p>
-            </div>
-        </section>
-        <div class="album py-5 bg-light">
+        <!-- Vertically centered modal -->
+        <div class="port">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="../images/ihmcoach.png" alt="IHM Coach">
-                            <div class="card-body">
-                                <p class="card-text">Construction de l'interface graphique</p>
+                    <div class="col-lg-12">
+                        <div class="section-header text-center">
+                            <h2>Certifications</h2>
+                            <p>Toutes les certifications obtenues jusqu'à maintenant.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="gallery-item" data-bs-target="#popup1" data-bs-toggle="modal">
+                            <img alt="Image 1" src="../images/xamk.jpg">
+                            <div class="overlay">
+                                <h3>Certificat "Gold" Introduction a la creation de Jeux Videos (Online 25 ECTS)</h3>
+                                <p></p><a class="btn btn-primary" href="#">Voir plus</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="../images/MVC.png"
-                                 alt="Structuration MVC">
-                            <div class="card-body">
-                                <p class="card-text">Stucturation de l'application en MVC</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img class="card-img-top" src="../images/adapters.png" alt="Adapters">
-                            <div class="card-body">
-                                <p class="card-text">Affichage des listes sur mobiles (adapters)</p>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="gallery-item" data-bs-target="#popup2" data-bs-toggle="modal">
+                            <img alt="Image 2" src="../images/anssi.jpg">
+                            <div class="overlay">
+                                <h3>MOOC - SecNum Academie ANSSI</h3>
+                                <p></p><a class="btn btn-primary" href="#">Voir plus</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div><!-- Popup modals -->
+        <div class="modal fade" id="popup1">
+            <div class="modal-dialog">
+                <div class="modal-content"><img alt="Image 1" src="../images/xamk.jpg"></div>
+            </div>
         </div>
+        <div class="modal fade" id="popup2">
+            <div class="modal-dialog">
+                <div class="modal-content"><img alt="Image 2" src="../images/anssi.jpg"></div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js">
+        </script>
 
         <!------------------------------------------------------------ Pied de page  ------------------------------------------------------------------------------------------------->
         <footer>
@@ -185,8 +186,7 @@
                             notamment dans le développement, qui est le sujet qui m'intéresse le plus.
                             Cette formation va aussi contribuer a me professionnaliser au maximum 
                             afin d'être le plus compétent possible lors de mon ascension dans le monde du travail.
-                        </p>
-                        <p><a class="btn btn-secondary" href="http://www.cned.fr" target="_blank"
+                        <p><a class="btn btn-secondary" href="https://bts-sio.lyc-bonaparte.fr/" target="_blank"
                               role="button">En savoir plus »</a>
                         </p>
                     </div>
